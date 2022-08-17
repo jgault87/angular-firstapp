@@ -1,10 +1,13 @@
 <footer>
-  <p *ngIf="hasRoute('/about')">
-    This application uses a
-    <a href="https://json-server-forever.herokuapp.com/"> JSON server</a> for
-    the backend.
-  </p>
-  <p *ngIf="hasRoute('/about')">double click your task to set reminder!</p>
+  <div *ngIf="hasRoute('/about')">
+    <iframe src="https://json-server-forever.herokuapp.com/tasks"></iframe>
+    <p>
+      This application uses a
+      <a href="https://json-server-forever.herokuapp.com/"> JSON server</a> for
+      the backend (updated tasks will reset after ~24hrs)
+    </p>
+    <p>double click a task to set reminder!</p>
+  </div>
   <a
     href="https://github.com/jgault87/angular-firstapp"
     target="_blank"
