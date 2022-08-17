@@ -4,37 +4,25 @@
       "id": 1,
       "text": "Grocery shopping",
       "day": "May 6th at 1:30pm",
-      "reminder": false
-    },
-    {
-      "id": 2,
-      "text": "Find Donkey Kong",
-      "day": "May 7th at 12:30pm",
-      "reminder": false
-    },
-    {
-      "id": 3,
-      "text": "Find Godzilla",
-      "day": "May 7th at 12:30pm",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 4,
       "text": "Find the triforce",
       "day": "May 7th at 12:30pm",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 5,
       "text": "where's waldo?",
       "day": "May 7th at 12:30pm",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 6,
       "text": "am I doing this right?",
       "day": "May 7th at 12:30pm",
-      "reminder": false
+      "reminder": true
     }
   ]
 }
