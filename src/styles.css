@@ -23,12 +23,12 @@ body {
 }
 .btn {
   display: inline-block;
-  background: #000;
+  background: #402c6c;
   color: #fff;
   border: none;
   padding: 10px 20px;
   margin: 5px;
-  border-radius: 5px;
+  border-radius: 0.4rem;
   cursor: pointer;
   text-decoration: none;
   font-size: 15px;
