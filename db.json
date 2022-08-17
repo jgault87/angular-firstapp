@@ -2,19 +2,37 @@
   "tasks": [
     {
       "id": 1,
-      "text": "Doctors Appointment",
-      "day": "May 5th at 2:30pm",
-      "reminder": true
+      "text": "Grocery shopping",
+      "day": "May 6th at 1:30pm",
+      "reminder": false
     },
     {
       "id": 2,
-      "text": "Grocery shopping",
-      "day": "May 6th at 1:30pm",
-      "reminder": true
+      "text": "Find Donkey Kong",
+      "day": "May 7th at 12:30pm",
+      "reminder": false
     },
     {
       "id": 3,
-      "text": "Fyre Festival",
+      "text": "Find Godzilla",
+      "day": "May 7th at 12:30pm",
+      "reminder": false
+    },
+    {
+      "id": 4,
+      "text": "Find the triforce",
+      "day": "May 7th at 12:30pm",
+      "reminder": false
+    },
+    {
+      "id": 5,
+      "text": "where's waldo?",
+      "day": "May 7th at 12:30pm",
+      "reminder": false
+    },
+    {
+      "id": 6,
+      "text": "am I doing this right?",
       "day": "May 7th at 12:30pm",
       "reminder": false
     }
