@@ -1,6 +1,10 @@
 <footer>
-  <p >This application uses a JSON server for the backend.</p>
-  <p>double click your task to set reminder!</p>
+  <p *ngIf="hasRoute('/about')">
+    This application uses a
+    <a href="https://json-server-forever.herokuapp.com/"> JSON server</a> for
+    the backend.
+  </p>
+  <p *ngIf="hasRoute('/about')">double click your task to set reminder!</p>
   <a
     href="https://github.com/jgault87/angular-firstapp"
     target="_blank"
