@@ -1,5 +1,5 @@
 <footer>
-  <div *ngIf="hasRoute('/about')">
+  <ng-container *ngIf="hasRoute('/about')">
     <iframe src="https://json-server-forever.herokuapp.com/tasks"></iframe>
     <p>
       This application uses a
@@ -7,7 +7,7 @@
       the backend (updated tasks will reset after ~24hrs)
     </p>
     <p>double click a task to set reminder!</p>
-  </div>
+  </ng-container>
   <a
     href="https://github.com/jgault87/angular-firstapp"
     target="_blank"
