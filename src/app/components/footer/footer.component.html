@@ -14,5 +14,5 @@
     class="btn"
     >Github</a
   >
-  <a routerLink="/about" class="btn">About</a>
+  <a *ngIf="hasRoute('/')" routerLink="/about" class="btn">About</a>
 </footer>
